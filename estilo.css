@@ -69,3 +69,20 @@ li a:hover {
   background: rgb(167, 238, 53);
   color: black;
 }
+#lobo {
+  width: 20%;
+
+}
+.caixaLobo {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 90%;
+  height: 200px;
+  background: black;
+  margin: 20px;
+  border
+  border-width: 20px;
+  border-style: solid;
+  padding: 20px;
+}
