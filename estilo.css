@@ -71,7 +71,9 @@ li a:hover {
 }
 #lobo {
   width: 20%;
-
+}
+#lobo:hover {
+  width: 100%;
 }
 .caixaLobo {
   position: absolute;
@@ -81,8 +83,26 @@ li a:hover {
   height: 200px;
   background: black;
   margin: 20px;
-  border
+  border-color: rgb(6, 240, 228);
   border-width: 20px;
   border-style: solid;
   padding: 20px;
+  display: flex;
+  justify-content: :end;
 }
+.rodape {
+  width: 100%;
+  height: 50px;
+  background: black;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  color: cornsilk;
+}
+.conteudo {
+  position: absolute;
+  top: 45px;
+}  
