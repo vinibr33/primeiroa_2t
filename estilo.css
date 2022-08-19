@@ -1,108 +1,100 @@
-body {
-   background: #FFFFFF;
+body{
+  margin: 0;
+  padding: 0;
 }
 h1 {
-   text-align: center;
+  text-align: center;
 }
 .caixa1 {
-  position: absolute;
-  background: blue;
-  color: #FFFFFF;
-  width: 200px;
-  height: 200px;
-  right: 0;
-  bottom: 0;
+   position: absolute;
+   background: rgb(253, 251, 251);
+   width: 200px;
+   height: 200px;
+   color: #FFFFFF;
+   right: 500px;
+   top: 200px;
 }
 .caixa2 {
-  position: absolute;
-  background: green;
-  color: #FFFFFF;
-  width: 200px;
-  height: 200px;
-  right: 205px;
-  bottom: 0;
-}
-.caixa3 {
-  position: absolute;
-  background: red;
-  color: #FFFFFF;
-  width: 200px;
-  height: 200px;
-  right: 410px;
-  bottom: 0;
-}
-.caixa4 {
-  position: absolute;
-  background: yellow;
-  color: #FFFFFF;
-  width: 200px;
-  height: 200px;
-  right: 615px;
-  bottom: 0;
-}
-.menuPrincipal {
    position: absolute;
-   top: 0;
-   left: 0;
-   background: rgb(69, 135, 139);
-   width: 100%;
-   height: 45px;
+   background: rgb(255, 205, 205);
+   width: 200px;
+   height: 200px;
+   color: #fcf7f7;
+   right: 705px;
+   top: 200px;
 }
 
+.menuPrincipal {
+  position: absolute;
+  width: 100%;
+  height: 45px;
+  background: rgb(32, 85, 69);
+  top: 0;
+  left: 0;
+}
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: 0;
 }
 li {
   float: left;
 }
 li a {
   display: block;
-  color: #FFFFFF;
-  text-align: center;
+  color: rgb(255, 255, 255);
   padding: 14px 16px;
+  text-align: center;
   text-decoration: none;
 }
 li a:hover {
-  background: rgb(167, 238, 53);
   color: black;
-}
-#lobo {
-  width: 20%;
-}
-#lobo:hover {
-  width: 100%;
-}
-.caixaLobo {
-  position: absolute;
-  top: 200px;
-  left: 0;
-  width: 90%;
-  height: 200px;
   background: black;
-  margin: 20px;
-  border-color: rgb(6, 240, 228);
-  border-width: 20px;
-  border-style: solid;
-  padding: 20px;
-  display: flex;
-  justify-content: :end;
 }
-.rodape {
-  width: 100%;
-  height: 50px;
-  background: black;
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  font-size: large;
-  display: flex;
-  justify-content: center;
-  color: cornsilk;
+#image {
+   width: 30%;
+}
+.boxImage {
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   width: 100%;
+   height: 200px;
+   background: rgb(119, 156, 190);
+   top: 50px;
+   left: 0;
+   margin: 20px;
+   border-color: black;
+   border-width: 20px;
+   border-style: solid;
+   padding: 20px;
 }
 .conteudo {
   position: absolute;
   top: 45px;
-}  
+  width: 100%;
+}
+#rodape {
+  position: relative;
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+}
+#copy {
+  width: 90%;
+  background: rgb(252, 249, 249);
+  border-radius: 30px;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.lobo{
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  top: 0;
+  right: 0;
+  z-index: 999;
+}
